@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Azure / project secrets
+secrets/
+*.pem
+*.key
